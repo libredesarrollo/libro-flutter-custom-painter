@@ -266,3 +266,49 @@ class _HeaderCirclePainter extends CustomPainter {
     return true;
   }
 }
+
+class HeaderFAB extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: double.infinity,
+      width: double.infinity,
+      child: CustomPaint(
+        painter: _HeaderFABPainter(),
+      ),
+    );
+  }
+}
+
+class _HeaderFABPainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = new Paint();
+
+    paint.color = Colors.purple;
+    paint.style = PaintingStyle.fill; // .fill .stroke
+    paint.strokeWidth = 20;
+
+    final path = new Path();
+
+    path.lineTo(0, size.height * 0.30);
+    path.lineTo(size.width, size.height * 0.30);
+
+    // path.quadraticBezierTo(
+    //     size.width * 0.5, size.height * 0.15, size.width, size.height * 0.30);
+
+    path.lineTo(size.width, size.height * 0.30);
+    path.lineTo(size.width, 0);
+
+    // path.lineTo(0, size.height * 0.30);
+    // path.lineTo(size.width, size.height * 0.30);
+    // path.lineTo(size.width, 0);
+
+    canvas.drawPath(path, paint);
+  }
+
+  @override
+  bool shouldRepaint(CustomPainter oldDelegate) {
+    return true;
+  }
+}
