@@ -1,48 +1,42 @@
-# Libro / Curso: Componentes y animaciones en Flutter
+# Custom Painter - Flutter
 
-Este repositorio **libro-flutter-custom-painter** forma parte del proyecto Libre Desarrollo, complementando de forma práctica el libro **Componentes y animaciones en Flutter**, cuyo enfoque principal es enseñar de manera aplicada cómo crear componentes personalizados y animaciones en Flutter.
+¡Bienvenido al proyecto de **Custom Painter**! Este repositorio contiene diversos ejemplos y componentes personalizados utilizando la potencia de `CustomPainter` y `CustomClipping` en Flutter. Aquí encontrarás diseños de cabeceras (headers), figuras geométricas y animaciones personalizadas.
 
----
+Este proyecto es una excelente base para aprender a crear interfaces únicas y fluidas en Flutter.
 
-##  Enlace al contenido original
+## 📚 Recurso de Aprendizaje
 
-Consulta el libro completo en Desarrollo Libre:
+Este proyecto ha sido desarrollado siguiendo las enseñanzas del libro:
+**[Primeros pasos con Flutter](https://www.desarrollolibre.net/libros/primeros-pasos-flutter)**
 
-[Componentes y animaciones en Flutter – desarrollolibre.net](https://www.desarrollolibre.net/libros/componentes-y-animaciones-en-flutter)
-
----
-
-##  Sobre “Componentes y animaciones en Flutter”
-
-El libro ofrece un enfoque **práctico y aplicado** para aprender a desarrollar componentes habitualmente utilizados en Flutter moderno, como encabezados (headers), widgets personalizados, así como animaciones fluidas y eficientes :contentReference[oaicite:0]{index=0}.
+Si quieres dominar Flutter y aprender a crear componentes personalizados como los de este repositorio, te recomiendo mucho su lectura.
 
 ---
 
-##  Contenido del repositorio
+## 🚀 Características
 
-Este repositorio sirve como complemento práctico del libro, ofreciendo ejemplos reales y ejercicios para aplicar los conceptos:
+- **Headers Personalizados**: Diferentes estilos de cabeceras (curvas, diagonales, picos).
+- **Figuras**: Creación de figuras geométricas personalizadas.
+- **Animaciones**: Integración de animaciones con componentes pintados a mano.
+- **HeaderFooterFAB**: Componente integrado que combina cabecera, pie de página y un botón de acción flotante personalizable.
 
-- `lib/`  
-  Incluye:
-  - Widgets personalizados utilizando **CustomPainter**
-  - Ejemplos de componentes como cabeceras animadas, gráficos, formas geométricas dinámicas.
-  - Animaciones controladas por `AnimationController`, `Tween`, `AnimatedBuilder`, entre otros.
+## 🏁 Instalación y Uso
 
-- `examples/`  
-  Ejemplos estructurados que reflejan los capítulos del libro:
-  - Animaciones básicas: transiciones, entrada/salida de widgets, efectos simples.
-  - Animaciones avanzadas: secuencias, animaciones de trazo, morphing, etc.
+1. **Clona el repositorio**:
+   ```bash
+   git clone <url-del-repositorio>
+   ```
 
-- Archivos de configuración estándar:
-  - `pubspec.yaml`, con dependencias tales como Flutter SDK, `flutter_test`, etc.
-  - Configuraciones para análisis estático o formateo de código si aplica (como `analysis_options.yaml`).
+2. **Obtén las dependencias**:
+   ```bash
+   flutter pub get
+   ```
+
+3. **Ejecuta el proyecto**:
+   ```bash
+   flutter run
+   ```
 
 ---
 
-##  Instrucciones de uso
-
-Para ejecutar los ejemplos localmente:
-
-```bash
-flutter pub get      # Instala las dependencias del proyecto
-flutter run          # Ejecuta la app en el emulador o dispositivo conectado
+Desarrollado con ❤️ para la comunidad de [DesarrolloLibre.net](https://www.desarrollolibre.net).
