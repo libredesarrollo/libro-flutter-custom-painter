@@ -107,12 +107,12 @@ class _PolygonPainterAnimateState extends State<PolygonPainterAnimate>
   @override
   void dispose() {
     controller.dispose();
+    controller2.dispose();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    print(animationRotation.value.toString());
     return Scaffold(
       appBar: AppBar(
         title: Text('Polygons'),
