@@ -18,11 +18,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-          body: HeaderFooterFAB(
-        position: 60,
-        sizeFAB: 50,
-        function: () => print('Hello world'),
-      )),
+        body: HeaderFooterFAB(
+          position: 60,
+          sizeFAB: 50,
+          function: () => print('Hello world'),
+        ),
+      ),
     );
   }
 }

@@ -1,30 +1,33 @@
-# Custom Painter - Flutter
+# Custom Painter y Animaciones - Flutter
 
-¡Bienvenido al proyecto de **Custom Painter**! Este repositorio contiene diversos ejemplos y componentes personalizados utilizando la potencia de `CustomPainter` y `CustomClipping` en Flutter. Aquí encontrarás diseños de cabeceras (headers), figuras geométricas y animaciones personalizadas.
+¡Bienvenido al proyecto de **Custom Painter y Animaciones**! Este repositorio contiene diversos ejemplos y componentes personalizados utilizando la potencia de `CustomPainter` y `CustomClipping` en Flutter, aplicados a diseños modernos y dinámicos.
 
-Este proyecto es una excelente base para aprender a crear interfaces únicas y fluidas en Flutter.
+Este proyecto es el complemento práctico ideal para dominar la creación de interfaces únicas y fluidas en Flutter.
 
-## 📚 Recurso de Aprendizaje
+## 📚 Recurso de Aprendizaje (Libro Promocional)
 
-Este proyecto ha sido desarrollado siguiendo las enseñanzas del libro:
-**[Primeros pasos con Flutter](https://www.desarrollolibre.net/libros/primeros-pasos-flutter)**
+Este proyecto ha sido desarrollado siguiendo las enseñanzas del libro especializado:
 
-Si quieres dominar Flutter y aprender a crear componentes personalizados como los de este repositorio, te recomiendo mucho su lectura.
+**[Componentes y Animaciones en Flutter](https://www.desarrollolibre.net/libros/componentes-y-animaciones-en-flutter)**
+
+Si quieres llevar tus habilidades de Flutter al siguiente nivel, aprender a dibujar tus propios componentes y crear animaciones complejas desde cero, te recomiendo mucho este recurso esencial.
 
 ---
 
-## 🚀 Características
+## 🚀 Características y Contenido
 
-- **Headers Personalizados**: Diferentes estilos de cabeceras (curvas, diagonales, picos).
-- **Figuras**: Creación de figuras geométricas personalizadas.
-- **Animaciones**: Integración de animaciones con componentes pintados a mano.
-- **HeaderFooterFAB**: Componente integrado que combina cabecera, pie de página y un botón de acción flotante personalizable.
+Aquí encontrarás una colección de componentes listos para usar y personalizar:
+
+- **Headers Personalizados (`headers.dart`)**: Diseños de cabeceras con formas geométricas, curvas, diagonales y picos utilizando `CustomPainter`.
+- **Figuras Complejas (`figures.dart`)**: Implementaciones de figuras personalizadas que van más allá de los widgets estándar de Flutter.
+- **Cabeceras Animadas (`headers_animated.dart`)**: Ejemplos de cómo dar vida a tus diseños personalizados mediante el sistema de animaciones de Flutter.
+- **Uso de CustomClipping**: Técnicas para recortar y dar forma a tus widgets de manera eficiente.
 
 ## 🏁 Instalación y Uso
 
 1. **Clona el repositorio**:
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/libredesarrollo/libro-flutter-custom-painter.git
    ```
 
 2. **Obtén las dependencias**:
@@ -36,6 +39,12 @@ Si quieres dominar Flutter y aprender a crear componentes personalizados como lo
    ```bash
    flutter run
    ```
+
+---
+
+## 🛠 Tecnologías
+* **Flutter**: Framework para el desarrollo multiplataforma.
+* **Dart**: Lenguaje de programación optimizado para interfaces de usuario.
 
 ---
 
